@@ -365,7 +365,7 @@ struct mfx {
 	char *card_name;	     /* for procinfo */
 	unsigned short firmware_rev;
 
-	uint8_t io_type;
+	unsigned char io_type;
 
 	int monitor_outs;	/* set up monitoring outs init flag */
 
